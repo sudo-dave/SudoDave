@@ -1,0 +1,17 @@
+img{
+  max-width: 18%;
+  height: auto;
+}
+:root {
+    --background: #031e11;
+}
+@media (min-width: 800px) {
+    :root {
+        --size: 1.4;
+    }
+}
+@media (min-width: 1200px) {
+    :root {
+        --size: 1.8;
+    }
+}
