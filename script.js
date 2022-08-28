@@ -53,7 +53,6 @@ const optons = {
   name: "David's Terminal Website",
   greetings: false,
   prompt: PROMPT,
-  onResize: set_size,
   onInit() {
     this.echo(() => render(this, "Hello World...", "Slant") + GREET);
   },
