@@ -16,6 +16,9 @@ function ready() {
     else if (cmd.name == "resume") {
       term.echo("redirecting....");
       window.open(RESUME_URL, "_blank");
+    } else if (cmd.name == "repo") {
+      term.echo("redirecting....");
+      window.open(REPO_URL, "_blank");
     } else if (cmd.name == "help") term.echo("[[i;#5F819D;]" + HELP + "]");
     else
       term.echo("[[b;#A54242;]" + cmd.name + ": " + "command not found" + "]");

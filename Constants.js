@@ -14,7 +14,8 @@ const GREET = `\nHEY!!! ヽ(•‿•)ノ
     \n[[i;#5F819D;]#### Enter in [[;#fff;]help] to get a list of commands.]
     `;
 const HELP =
-  "COMMANDS:\n\t[[;#fff;]echo TEXT] - print txt to screen\n\t[[;#fff;]home] - go back to beginning of site\n\t[[;#fff;]about] - learn a little more about me\n\t[[;#fff;]skills] - display my skills \n\t[[;#fff;]contact] - get my contact details\n\t[[;#fff;]resume] - get redirected to my resume\n\t[[;#fff;]clear] - clear console screen";
+  "COMMANDS:\n\t[[;#fff;]echo TEXT] - print txt to screen\n\t[[;#fff;]home] - go back to beginning of site\n\t[[;#fff;]about] - learn a little more about me\n\t[[;#fff;]skills] - display my skills \n\t[[;#fff;]contact] - get my contact details\n\t[[;#fff;]resume] - get redirected to my resume\n\t[[;#fff;]clear] - clear console screen" +
+  "\n\t[[;#fff;]repo] - get redirected to the repo";
 
 const ABOUT =
   "\n\tAs far as I can remember, I've always tinkered with technology. When I was a kid I used to get in trouble dismantelling our home electronics." +
@@ -28,3 +29,5 @@ const SKILLS =
   "[[;#fff;]Frontend:]\n\t*HTML/CSS *JS *React.js *Jquery *Tailwind CSS\n\n[[;#fff;]Backend:]\n\t*Python *Java *SQL *SQLAlchemy *Pandas\n\n[[;#fff;]Software/Tools:]\n\t*VScode *GIT *Microsft/Google Office\n\t*Familiar w/ Windows and Linux environments" +
   "\n\n[[;#fff;]Intrests and areas of expertise:]\n\t*Fundamentals of Computer Networking & Cyberseruity *Effective Communication\n\t*Knowledge of Object-Oriented design *Software Development\n\t*Frontend Development *API Design *Troubleshooting and testing skills";
 const CONTACT = "Linkedin:\n" + LINKEDIN_LINK + "\n\nGithub:\n" + GITHUB_LINK;
+
+const REPO_URL = "https://github.com/sudo-dave/terminal-website";
