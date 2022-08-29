@@ -1,6 +1,6 @@
 # terminal-website
 
-My "terminal/console" style personal website. Interact with the site while learning more about me by entering commands into the terminal UI. The website is built with HTML/CSS and [jQuery](https://jquery.com).
+My "terminal/console" style personal website. Interact with the site while learning more about me by entering commands into the terminal UI. The website is built with HTML/CSS and Javascript using [jQuery](https://jquery.com).
 
 ## Demo
 
