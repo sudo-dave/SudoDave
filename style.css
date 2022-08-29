@@ -1,6 +1,13 @@
 img{
-  width: clamp(150px, 45%, 340px);
+  display: block;
   height: auto;
+}
+#pfp{
+  margin: 0 auto;
+  width: clamp(140px, 28%, 340px);
+}
+#gif{
+  width: clamp(80px, 10%, 280px);
 }
 :root {
     --background: #031e11;

@@ -9,7 +9,7 @@ function ready() {
     if (cmd.name == "echo") term.echo(cmd.rest);
     else if (cmd.name == "home") term.reset();
     else if (cmd.name == "about") {
-      term.echo($("<img src=" + PROFILE_URL + ">"));
+      term.echo($(PFP_El));
       term.echo(ABOUT);
     } else if (cmd.name == "skills") term.echo(SKILLS);
     else if (cmd.name == "contact") term.echo(CONTACT);
@@ -27,13 +27,15 @@ const optons = {
   greetings: false,
   prompt: PROMPT,
   onInit() {
-    this.echo(() => render(this, "Hello World...", "Slant") + GREET);
+    this.echo(() => render(this, "Hello World...", "Slant"));
+    this.echo($(GIF_El));
+    this.echo(GREET);
   },
 };
 function render(term, text, font) {
   const cols = term.cols();
   return figlet.textSync(text, {
-    font: font || "Standard",
+    font: font,
     width: cols,
     whitespaceBreak: true,
   });
