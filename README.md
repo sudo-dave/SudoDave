@@ -2,6 +2,11 @@
 
 My "terminal/console" style personal website. Interact with the site while learning more about me by entering commands into the terminal UI. The website is built with HTML/CSS and Javascript using [jQuery](https://jquery.com).
 
+Although I'm currenlty self-hosting an instance of this project with my home lab, I'm also hosting on github pages.
+
+### Deploy @ https://sudo-dave.github.io/terminal-website/
+
+
 ## Demo
 
 <img src="images/demo.gif">
