@@ -30,4 +30,4 @@ const SKILLS =
   "\n\n[[;#fff;]Intrests and areas of expertise:]\n\t*Fundamentals of Computer Networking & Cyberseruity *Effective Communication\n\t*Knowledge of Object-Oriented design *Software Development\n\t*Frontend Development *API Design *Troubleshooting and testing skills";
 const CONTACT = "Linkedin:\n" + LINKEDIN_LINK + "\n\nGithub:\n" + GITHUB_LINK;
 
-const REPO_URL = "https://github.com/sudo-dave/terminal-website";
+const REPO_URL = "https://github.com/sudo-dave/my-cli-website";
