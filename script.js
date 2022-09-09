@@ -14,10 +14,10 @@ function ready() {
     } else if (cmd.name == "skills") term.echo(SKILLS);
     else if (cmd.name == "contact") term.echo(CONTACT);
     else if (cmd.name == "resume") {
-      term.echo("redirecting....");
+      term.echo("..redirecting....");
       window.open(RESUME_URL, "_blank");
     } else if (cmd.name == "repo") {
-      term.echo("redirecting....");
+      term.echo("..redirecting....");
       window.open(REPO_URL, "_blank");
     } else if (cmd.name == "help") term.echo("[[i;#5F819D;]" + HELP + "]");
     else
@@ -26,11 +26,11 @@ function ready() {
 }
 
 const optons = {
-  name: "David's Terminal Website",
+  name: "Dave's Terminal Website",
   greetings: false,
   prompt: PROMPT,
   onInit() {
-    this.echo(() => render(this, "Hello World...", "Slant"));
+    this.echo(() => render(this, "...Hello World...", "Slant"));
     this.echo($(GIF_El));
     this.echo(GREET);
   },
