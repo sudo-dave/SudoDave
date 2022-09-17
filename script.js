@@ -6,22 +6,42 @@ figlet.preloadFonts(["Standard", "Slant"], ready);
 function ready() {
   $("body").terminal((command, term) => {
     var cmd = $.terminal.parse_command(command);
-    if (cmd.name == "echo") term.echo(cmd.rest);
-    else if (cmd.name == "home") term.reset();
-    else if (cmd.name == "about") {
-      term.echo($(PFP_El));
-      term.echo(ABOUT);
-    } else if (cmd.name == "skills") term.echo(SKILLS);
-    else if (cmd.name == "contact") term.echo(CONTACT);
-    else if (cmd.name == "resume") {
-      term.echo("..redirecting....");
-      window.open(RESUME_URL, "_blank");
-    } else if (cmd.name == "repo") {
-      term.echo("..redirecting....");
-      window.open(REPO_URL, "_blank");
-    } else if (cmd.name == "help") term.echo("[[i;#5F819D;]" + HELP + "]");
-    else
-      term.echo("[[b;#A54242;]" + cmd.name + ": " + "command not found" + "]");
+    switch (cmd.name) {
+      case "echo":
+        term.echo(cmd.rest);
+        break;
+      case "home":
+        term.reset();
+        break;
+      case "about":
+        term.echo($(PFP_El));
+        term.echo(ABOUT);
+        break;
+      case "skills":
+        term.echo(SKILLS);
+        break;
+      case "contact":
+        term.echo(CONTACT);
+        break;
+      case "resume":
+        term.echo("..redirecting....");
+        window.open(RESUME_URL, "_blank");
+        break;
+      case "repo":
+        term.echo("..redirecting....");
+        window.open(REPO_URL, "_blank");
+        break;
+      case "help":
+        term.echo("[[i;#5F819D;]" + HELP + "]");
+        break;
+      case "snake":
+        snake(term);
+        break;
+      default:
+        term.echo(
+          "[[b;#A54242;]" + cmd.name + ": " + "command not found" + "]"
+        );
+    }
   }, optons);
 }
 

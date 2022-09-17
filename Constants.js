@@ -2,12 +2,13 @@ const GITHUB_LINK = "https://github.com/sudo-dave";
 const LINKEDIN_LINK = "https://www.linkedin.com/in/maciasdavid";
 const RESUME_URL =
   "https://drive.google.com/file/d/10ur6xeD7oChPe1m68Us5At-snCY6fkvR/view?usp=sharing";
-
+const REPO_URL = "https://github.com/sudo-dave/my-cli-website";
 const PROFILE_URL = "images/pfp.jpg";
+
 const GIF_El = '<img id="gif" src="images/world.gif"/>';
 const PFP_El = '<img id="pfp" src=' + PROFILE_URL + ">";
 
-const PROMPT = "[[;#8ABEB7;]vistor@daves-website $ ]";
+const PROMPT = "[[b;#772953;]vistor@][[b;;]daves-website $ ]";
 const GREET = `\nHEY!!! ヽ(•‿•)ノ
     \nMy name is [[bu;#DE935F;]David Macias] and welcome to my interactive website.
     \nI'm a recent [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]information technology] and [[b;#fff;]software development].
@@ -28,6 +29,5 @@ const ABOUT =
 const SKILLS =
   "[[;#fff;]Frontend:]\n\t*HTML/CSS *JS *React.js *Jquery *Tailwind CSS\n\n[[;#fff;]Backend:]\n\t*Python *Java *SQL *SQLAlchemy *Pandas\n\n[[;#fff;]Software/Tools:]\n\t*VScode *GIT *Microsft/Google Office\n\t*Familiar w/ Windows and Linux environments" +
   "\n\n[[;#fff;]Intrests and areas of expertise:]\n\t*Fundamentals of Computer Networking & Cyberseruity *Effective Communication\n\t*Knowledge of Object-Oriented design *Software Development\n\t*Frontend Development *API Design *Troubleshooting and testing skills";
-const CONTACT = "Linkedin:\n" + LINKEDIN_LINK + "\n\nGithub:\n" + GITHUB_LINK;
 
-const REPO_URL = "https://github.com/sudo-dave/my-cli-website";
+const CONTACT = "Linkedin:\n" + LINKEDIN_LINK + "\n\nGithub:\n" + GITHUB_LINK;

@@ -5,6 +5,7 @@ img{
 #pfp{
   margin: 0 auto;
   width: clamp(140px, 28%, 340px);
+  border-radius: 50%;
 }
 #gif{
   width: clamp(80px, 10%, 280px);
