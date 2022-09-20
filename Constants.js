@@ -8,6 +8,10 @@ const PROFILE_URL = "images/pfp.jpg";
 const GIF_El = '<img id="gif" src="images/world.gif"/>';
 const PFP_El = '<img id="pfp" src=' + PROFILE_URL + ">";
 
+const FRONT_IMG = '<img id="skills" src ="images/frontend.png" />';
+const BACK_IMG = '<img id="skills" src ="images/back.png" >';
+const TOOL_IMG = '<img  id="skills" src ="images/tools.png" >';
+
 const PROMPT = "[[b;#772953;]vistor@][[b;;]daves-website $ ]";
 const GREET = `\nHEY!!! ヽ(•‿•)ノ
     \nMy name is [[bu;#DE935F;]David Macias] and welcome to my interactive website.
@@ -16,7 +20,7 @@ const GREET = `\nHEY!!! ヽ(•‿•)ノ
     `;
 const HELP =
   "COMMANDS:\n\t[[;#fff;]echo TEXT] - print txt to screen\n\t[[;#fff;]home] - go back to beginning of site\n\t[[;#fff;]about] - learn a little more about me\n\t[[;#fff;]skills] - display my skills \n\t[[;#fff;]contact] - get my contact details\n\t[[;#fff;]resume] - get redirected to my resume\n\t[[;#fff;]clear] - clear console screen" +
-  "\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#fff;]help] - display list of commands";
+  "\n#######\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#fff;]help] - display list of commands";
 
 const ABOUT =
   "\n\tAs far as I can remember, I've always tinkered with technology. When I was a kid I used to get in trouble dismantelling our home electronics." +
@@ -26,8 +30,14 @@ const ABOUT =
   " I taught my self frontend dev with Udemy courses and youtube. Eventually, my love of electronics colided with coding. Now I've been tinkering with rasberry pies and created a homelab out of one. So far it's been a blast." +
   "\n\n-- Thanks for learning a little more about me =)";
 
-const SKILLS =
-  "[[;#fff;]Frontend:]\n\t*HTML/CSS *JS *React.js *Jquery *Tailwind CSS\n\n[[;#fff;]Backend:]\n\t*Python *Java *SQL *SQLAlchemy *Pandas\n\n[[;#fff;]Software/Tools:]\n\t*VScode *GIT *Microsft/Google Office\n\t*Familiar w/ Windows and Linux environments" +
+const TOP_SKILLS =
+  "[[;#fff;]Frontend:]\n\t*HTML/CSS *JS *React.js *Jquery *Tailwind CSS";
+
+const MID_SKILLS =
+  "\n\n[[;#fff;]Backend:]\n\t*Python *Flask *Java *SQL *SQLAlchemy *Pandas";
+
+const LAST_SKILLS =
+  "\n\n[[;#fff;]Software/Tools:]\n\t*VScode *Jira *GIT *Microsft/Google Office\n\t*Familiar w/ Windows and Linux environments" +
   "\n\n[[;#fff;]Intrests and areas of expertise:]\n\t*Fundamentals of Computer Networking & Cyberseruity *Effective Communication\n\t*Knowledge of Object-Oriented design *Software Development\n\t*Frontend Development *API Design *Troubleshooting and testing skills";
 
 const CONTACT = "Linkedin:\n" + LINKEDIN_LINK + "\n\nGithub:\n" + GITHUB_LINK;

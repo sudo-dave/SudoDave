@@ -18,7 +18,12 @@ function ready() {
         term.echo(ABOUT);
         break;
       case "skills":
-        term.echo(SKILLS);
+        term.echo($(FRONT_IMG));
+        term.echo(TOP_SKILLS);
+        term.echo($(BACK_IMG));
+        term.echo(MID_SKILLS);
+        term.echo($(TOOL_IMG));
+        term.echo(LAST_SKILLS);
         break;
       case "contact":
         term.echo(CONTACT);
