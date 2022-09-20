@@ -31,13 +31,13 @@ const ABOUT =
   "\n\n-- Thanks for learning a little more about me =)";
 
 const TOP_SKILLS =
-  "[[;#fff;]Frontend:]\n\t*HTML/CSS *JS *React.js *Jquery *Tailwind CSS";
+  "[[;#fff;]Frontend:]\n\t*HTML/CSS *JS *React.js *Jquery *Tailwind CSS\n\n\n";
 
 const MID_SKILLS =
-  "\n\n[[;#fff;]Backend:]\n\t*Python *Flask *Java *SQL *SQLAlchemy *Pandas";
+  "[[;#fff;]Backend:]\n\t*Python *Flask *Java *SQL *SQLAlchemy *Pandas\n\n\n";
 
 const LAST_SKILLS =
-  "\n\n[[;#fff;]Software/Tools:]\n\t*VScode *Jira *GIT *Microsft/Google Office\n\t*Familiar w/ Windows and Linux environments" +
-  "\n\n[[;#fff;]Intrests and areas of expertise:]\n\t*Fundamentals of Computer Networking & Cyberseruity *Effective Communication\n\t*Knowledge of Object-Oriented design *Software Development\n\t*Frontend Development *API Design *Troubleshooting and testing skills";
+  "[[;#fff;]Software/Tools:]\n\t*VScode *Jira *GIT *Microsft/Google Office\n\t*Familiar w/ Windows and Linux environments" +
+  "\n\n\n\n[[;#fff;]Intrests and areas of expertise:]\n\t*Fundamentals of Computer Networking & Cyberseruity *Effective Communication\n\t*Knowledge of Object-Oriented design *Software Development\n\t*Frontend Development *API Design *Troubleshooting and testing skills";
 
 const CONTACT = "Linkedin:\n" + LINKEDIN_LINK + "\n\nGithub:\n" + GITHUB_LINK;
