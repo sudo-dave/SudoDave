@@ -18,10 +18,11 @@ COMMANDS:
     echo TEXT - print txt to screen
     home - go back to beginning of site
     about - learn a little more about me
-    skills - display my skills
+    skills - display my skills 
     contact - get my contact details
     resume - get redirected to my resume
     clear - clear console screen
+    
     repo - get redirected to the repo
     help - display list of commands
 ```
