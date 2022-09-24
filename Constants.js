@@ -10,17 +10,21 @@ const PFP_El = '<img id="pfp" src=' + PROFILE_URL + ">";
 
 const FRONT_IMG = '<img id="skills" src ="images/frontend.png" />';
 const BACK_IMG = '<img id="skills" src ="images/back.png" >';
-const TOOL_IMG = '<img  id="skills" src ="images/tools.png" >';
+const TOOL_IMG = '<img id="skills" src ="images/tools.png" >';
+
+const GOOGLE_SUPPORT =
+  "https://www.credly.com/badges/7d3c4f22-d17b-48a0-ad5e-ae31f59a34f6/public_url";
 
 const PROMPT = "[[b;#772953;]vistor@][[b;;]daves-website $ ]";
 const GREET = `\nHEY!!! ヽ(•‿•)ノ
     \nMy name is [[bu;#DE935F;]David Macias] and welcome to my interactive website.
-    \nI'm a recent [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]information technology] and [[b;#fff;]software development].
+    \nI'm a [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]information technology] and [[b;#fff;]software development].
+    \n*Recently compelted [[i;#fff;]Google IT Support Certificatehelp]
     \n[[i;#5F819D;]#### Enter in [[;#fff;]help] to get a list of commands.]
     `;
 const HELP =
   "COMMANDS:\n\t[[;#fff;]echo TEXT] - print txt to screen\n\t[[;#fff;]home] - go back to beginning of site\n\t[[;#fff;]about] - learn a little more about me\n\t[[;#fff;]skills] - display my skills \n\t[[;#fff;]contact] - get my contact details\n\t[[;#fff;]resume] - get redirected to my resume\n\t[[;#fff;]clear] - clear console screen" +
-  "\n#######\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#fff;]help] - display list of commands";
+  "\n\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#fff;]help] - display list of commands";
 
 const ABOUT =
   "\n\tAs far as I can remember, I've always tinkered with technology. When I was a kid I used to get in trouble dismantelling our home electronics." +
@@ -38,6 +42,9 @@ const MID_SKILLS =
 
 const LAST_SKILLS =
   "[[;#fff;]Software/Tools:]\n\t*VScode *Jira *GIT *Microsft/Google Office\n\t*Familiar w/ Windows and Linux environments" +
-  "\n\n\n\n[[;#fff;]Intrests and areas of expertise:]\n\t*Fundamentals of Computer Networking & Cyberseruity *Effective Communication\n\t*Knowledge of Object-Oriented design *Software Development\n\t*Frontend Development *API Design *Troubleshooting and testing skills";
+  "\n\n\n\n[[;#fff;]Intrests and areas of expertise:]\n\t*Fundamentals of Computer Networking & Cyberseruity *Effective Communication\n\t*Knowledge of Object-Oriented design *Software Development\n\t*Frontend Development *API Design *Troubleshooting and testing skills" +
+  "\n\n\nCompelted [[;#fff;]Google IT Support Certificatehelp:]\n" +
+  GOOGLE_SUPPORT +
+  "\n";
 
 const CONTACT = "Linkedin:\n" + LINKEDIN_LINK + "\n\nGithub:\n" + GITHUB_LINK;

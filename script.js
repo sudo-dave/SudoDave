@@ -28,6 +28,9 @@ function ready() {
       case "contact":
         term.echo(CONTACT);
         break;
+      case "test":
+        term.echo($(frame));
+        break;
       case "resume":
         term.echo("..redirecting....");
         window.open(RESUME_URL, "_blank");
