@@ -11,7 +11,7 @@ img{
   width: clamp(80px, 10%, 280px);
 }
 #skills{
-  width: clamp(90px, 10%, 300px);
+  width: clamp(85px, 8%, 280px);
 
 }
 :root {

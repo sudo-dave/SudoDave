@@ -5,6 +5,8 @@ const RESUME_URL =
 const REPO_URL = "https://github.com/sudo-dave/my-cli-website";
 const PROFILE_URL = "images/pfp.jpg";
 
+const EMAIL = "david.macias.0101@gmail.com";
+
 const GIF_El = '<img id="gif" src="images/world.gif"/>';
 const PFP_El = '<img id="pfp" src=' + PROFILE_URL + ">";
 
@@ -47,4 +49,10 @@ const LAST_SKILLS =
   GOOGLE_SUPPORT +
   "\n";
 
-const CONTACT = "Linkedin:\n" + LINKEDIN_LINK + "\n\nGithub:\n" + GITHUB_LINK;
+const CONTACT =
+  "Linkedin:\n" +
+  LINKEDIN_LINK +
+  "\n\nGithub:\n" +
+  GITHUB_LINK +
+  "\n\nEmail:\n" +
+  EMAIL;
