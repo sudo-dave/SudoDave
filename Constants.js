@@ -56,3 +56,26 @@ const CONTACT =
   GITHUB_LINK +
   "\n\nEmail:\n" +
   EMAIL;
+
+// Projects
+const PROJECT_URLS = [
+  "https://api.github.com/repos/sudo-dave/Sort.io--Sorting-Visualizer",
+  "https://api.github.com/repos/sudo-dave/WhereToEat.io",
+  "https://api.github.com/repos/sudo-dave/cli-codeQ",
+];
+
+const PROJECT_DESCRIPTIONS = [];
+const PROJECT_TITLES = [];
+
+async function main() {
+  try {
+    for (const url of PROJECT_URLS) {
+      const res = await fetch(url).then((res) => res.json());
+      PROJECT_TITLES.push(res["name"]);
+      PROJECT_DESCRIPTIONS.push(res["description"]);
+    }
+  } catch (error) {
+    console.log("Error", error);
+  }
+}
+main();

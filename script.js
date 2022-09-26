@@ -28,8 +28,9 @@ function ready() {
       case "contact":
         term.echo(CONTACT);
         break;
-      case "test":
-        term.echo($(frame));
+      case "projects":
+        output = PROJECT_DESCRIPTIONS.join("\n\n");
+        term.echo(output);
         break;
       case "resume":
         term.echo("..redirecting....");
