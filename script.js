@@ -29,8 +29,13 @@ function ready() {
         term.echo(CONTACT);
         break;
       case "projects":
-        output = PROJECT_DESCRIPTIONS.join("\n\n");
-        term.echo(output);
+        term.echo("\n");
+        for (const project of PROJECTS) {
+          const { name, desc, url } = project;
+          term.echo(name.toUpperCase() + ":\n" + url + "\n");
+          term.echo(desc + "\n");
+          term.echo("#######" + "\n");
+        }
         break;
       case "resume":
         term.echo("..redirecting....");

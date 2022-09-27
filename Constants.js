@@ -26,7 +26,7 @@ const GREET = `\nHEY!!! ヽ(•‿•)ノ
     `;
 const HELP =
   "COMMANDS:\n\t[[;#fff;]echo TEXT] - print txt to screen\n\t[[;#fff;]home] - go back to beginning of site\n\t[[;#fff;]about] - learn a little more about me\n\t[[;#fff;]skills] - display my skills \n\t[[;#fff;]contact] - get my contact details\n\t[[;#fff;]resume] - get redirected to my resume\n\t[[;#fff;]clear] - clear console screen" +
-  "\n\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#fff;]help] - display list of commands";
+  "\n\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#DE935F;]projects] - display personal projects\n\t[[;#fff;]help] - display list of commands";
 
 const ABOUT =
   "\n\tAs far as I can remember, I've always tinkered with technology. When I was a kid I used to get in trouble dismantelling our home electronics." +
@@ -57,25 +57,26 @@ const CONTACT =
   "\n\nEmail:\n" +
   EMAIL;
 
-// Projects
+// Projects (Project Urls)
 const PROJECT_URLS = [
   "https://api.github.com/repos/sudo-dave/Sort.io--Sorting-Visualizer",
   "https://api.github.com/repos/sudo-dave/WhereToEat.io",
   "https://api.github.com/repos/sudo-dave/cli-codeQ",
+  "https://api.github.com/repos/sudo-dave/KeyLogger",
+  "https://api.github.com/repos/sudo-dave/my-cli-website",
 ];
-
-const PROJECT_DESCRIPTIONS = [];
-const PROJECT_TITLES = [];
-
-async function main() {
+const PROJECTS = [];
+(async () => {
   try {
     for (const url of PROJECT_URLS) {
       const res = await fetch(url).then((res) => res.json());
-      PROJECT_TITLES.push(res["name"]);
-      PROJECT_DESCRIPTIONS.push(res["description"]);
+      PROJECTS.push({
+        name: res.name,
+        desc: res.description,
+        url: res.html_url,
+      });
     }
   } catch (error) {
     console.log("Error", error);
   }
-}
-main();
+})();
