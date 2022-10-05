@@ -24,5 +24,6 @@ COMMANDS:
     clear - clear console screen
     
     repo - get redirected to the repo
+    projects - display personal projects
     help - display list of commands
 ```
