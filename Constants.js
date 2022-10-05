@@ -19,7 +19,7 @@ const GOOGLE_SUPPORT =
 
 const PROMPT = "[[b;#772953;]vistor@][[b;;]daves-website $ ]";
 const GREET = `\nHEY!!! ヽ(•‿•)ノ
-    \nMy name is [[bu;#DE935F;]David Macias] and welcome to my interactive website.
+    \nMy name is [[bu;#DE935F;]DAVID MACIAS] and welcome to my interactive website.
     \nI'm a [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]information technology] and [[b;#fff;]software development].
     \n*Recently completed [[i;#fff;]Google IT Support Certificatehelp]
     \n[[i;#5F819D;]#### Enter in [[;#fff;]help] to get a list of commands.]
@@ -60,19 +60,25 @@ const CONTACT =
 // Projects (Project Urls)
 const PROJECT_URLS = [
   "https://api.github.com/repos/sudo-dave/Sort.io--Sorting-Visualizer",
-  "https://api.github.com/repos/sudo-dave/WhereToEat.io",
   "https://api.github.com/repos/sudo-dave/cli-codeQ",
+  "https://api.github.com/repos/sudo-dave/WhereToEat.io",
   "https://api.github.com/repos/sudo-dave/my-cli-website",
   "https://api.github.com/repos/sudo-dave/KeyLogger",
 ];
 const PROJECT_GIFS = [
   '<img class="port" src="demos/sort.gif"/>',
-  '<img class="port" src="demos/where.gif"/>',
   '<img class="port" src="demos/cli.gif"/>',
+  '<img class="port" src="demos/where.gif"/>',
   '<img class="port" src="demos/website.gif"/>',
   '<img class="port" src="demos/key.gif"/>',
 ];
-
+const TECH_DESC = [
+  ["React", "HTML/CSS", "JS", "Styled-components"],
+  ["Python", "Web Scraping", "Cli", "PRAW"],
+  ["React", "Flask", "API", "Tailwind CSS", "Full-Stack", "SQLite"],
+  ["JQuery", "JS", "HTML/CSS", "Web Dev"],
+  ["Java", "Cybersecurity", "Maven"],
+];
 const PROJECTS = [];
 (async () => {
   try {

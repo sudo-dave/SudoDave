@@ -33,10 +33,14 @@ function ready() {
         var i = 0;
         for (const project of PROJECTS) {
           const { name, desc, url } = project;
+          const TECH_TEXT = TECH_DESC[i].join(" *");
           term.echo($(PROJECT_GIFS[i]));
-          term.echo(name.toUpperCase() + ":\n" + url + "\n");
+          term.echo(
+            "[[b;#DE935F;]" + name.toUpperCase() + "]" + ":\n" + url + "\n"
+          );
           term.echo(desc + "\n");
-          if (i != PROJECT_URLS.length - 1) term.echo("#########" + "\n");
+          term.echo("Tech Stack: *" + "[[i;#fff;]" + TECH_TEXT + "]");
+          if (i != PROJECT_URLS.length - 1) term.echo("\n#########" + "\n");
           i++;
         }
         break;
@@ -50,9 +54,6 @@ function ready() {
         break;
       case "help":
         term.echo("[[i;#5F819D;]" + HELP + "]");
-        break;
-      case "snake":
-        snake(term);
         break;
       default:
         term.echo(
