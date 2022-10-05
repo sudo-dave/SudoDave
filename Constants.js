@@ -10,9 +10,9 @@ const EMAIL = "david.macias.0101@gmail.com";
 const GIF_El = '<img id="gif" src="images/world.gif"/>';
 const PFP_El = '<img id="pfp" src=' + PROFILE_URL + ">";
 
-const FRONT_IMG = '<img id="skills" src ="images/frontend.png" />';
-const BACK_IMG = '<img id="skills" src ="images/back.png" >';
-const TOOL_IMG = '<img id="skills" src ="images/tools.png" >';
+const FRONT_IMG = '<img class="skills" src ="images/frontend.png" />';
+const BACK_IMG = '<img class="skills" src ="images/back.png" >';
+const TOOL_IMG = '<img class="skills" src ="images/tools.png" >';
 
 const GOOGLE_SUPPORT =
   "https://www.credly.com/badges/7d3c4f22-d17b-48a0-ad5e-ae31f59a34f6/public_url";
@@ -62,12 +62,19 @@ const PROJECT_URLS = [
   "https://api.github.com/repos/sudo-dave/Sort.io--Sorting-Visualizer",
   "https://api.github.com/repos/sudo-dave/WhereToEat.io",
   "https://api.github.com/repos/sudo-dave/cli-codeQ",
-  "https://api.github.com/repos/sudo-dave/KeyLogger",
   "https://api.github.com/repos/sudo-dave/my-cli-website",
 ];
+const PROJECT_GIFS = [
+  '<img id="port" src="demos/sort.gif"/>',
+  '<img id="port" src="demos/where.gif"/>',
+  '<img id="port" src="demos/cli.gif"/>',
+  '<img id="port" src="demos/website.gif"/>',
+];
+
 const PROJECTS = [];
 (async () => {
   try {
+    var i = 0;
     for (const url of PROJECT_URLS) {
       const res = await fetch(url).then((res) => res.json());
       PROJECTS.push({

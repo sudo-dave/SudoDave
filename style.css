@@ -10,10 +10,10 @@ img{
 #gif{
   width: clamp(80px, 10%, 280px);
 }
-#skills{
+.skills{
   width: clamp(85px, 8%, 280px);
-
 }
+
 :root {
     --background: #031e11;
 }
