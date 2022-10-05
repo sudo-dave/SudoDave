@@ -30,11 +30,14 @@ function ready() {
         break;
       case "projects":
         term.echo("\n");
+        var i = 0;
         for (const project of PROJECTS) {
           const { name, desc, url } = project;
+          term.echo($(PROJECT_GIFS[i]));
           term.echo(name.toUpperCase() + ":\n" + url + "\n");
           term.echo(desc + "\n");
-          term.echo("#######" + "\n");
+          if (i != PROJECT_URLS.length - 1) term.echo("#########" + "\n");
+          i++;
         }
         break;
       case "resume":

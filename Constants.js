@@ -63,18 +63,19 @@ const PROJECT_URLS = [
   "https://api.github.com/repos/sudo-dave/WhereToEat.io",
   "https://api.github.com/repos/sudo-dave/cli-codeQ",
   "https://api.github.com/repos/sudo-dave/my-cli-website",
+  "https://api.github.com/repos/sudo-dave/KeyLogger",
 ];
 const PROJECT_GIFS = [
-  '<img id="port" src="demos/sort.gif"/>',
-  '<img id="port" src="demos/where.gif"/>',
-  '<img id="port" src="demos/cli.gif"/>',
-  '<img id="port" src="demos/website.gif"/>',
+  '<img class="port" src="demos/sort.gif"/>',
+  '<img class="port" src="demos/where.gif"/>',
+  '<img class="port" src="demos/cli.gif"/>',
+  '<img class="port" src="demos/website.gif"/>',
+  '<img class="port" src="demos/key.gif"/>',
 ];
 
 const PROJECTS = [];
 (async () => {
   try {
-    var i = 0;
     for (const url of PROJECT_URLS) {
       const res = await fetch(url).then((res) => res.json());
       PROJECTS.push({
