@@ -21,7 +21,7 @@ const PROMPT = "[[b;#772953;]vistor@][[b;;]daves-website $ ]";
 const GREET = `\nHEY!!! ヽ(•‿•)ノ
     \nMy name is [[bu;#DE935F;]DAVID MACIAS] and welcome to my interactive website.
     \nI'm a [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]information technology] and [[b;#fff;]software development].
-    \n*Recently completed [[i;#fff;]Google IT Support Certificatehelp]
+    \n*Recently completed [[i;#fff;]Google IT Support Certificate]
     \n[[i;#5F819D;]#### Enter in [[;#fff;]help] to get a list of commands.]
     `;
 const HELP =
