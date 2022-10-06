@@ -66,11 +66,11 @@ const PROJECT_URLS = [
   "https://api.github.com/repos/sudo-dave/KeyLogger",
 ];
 const PROJECT_GIFS = [
-  '<img class="port" src="demos/sort.gif"/>',
-  '<img class="port" src="demos/cli.gif"/>',
-  '<img class="port" src="demos/where.gif"/>',
-  '<img class="port" src="demos/website.gif"/>',
-  '<img class="port" src="demos/key.gif"/>',
+  '<img class="demo" src="demos/sort.gif"/>',
+  '<img class="demo" src="demos/cli.gif"/>',
+  '<img class="demo" src="demos/where.gif"/>',
+  '<img class="demo" src="demos/website.gif"/>',
+  '<img class="demo" src="demos/key.gif"/>',
 ];
 const TECH_DESC = [
   ["React", "HTML/CSS", "JS", "Styled-components"],
