@@ -77,7 +77,7 @@ const TECH_DESC = [
   ["Python", "Web Scraping", "Cli", "PRAW"],
   ["React", "Flask", "API", "Tailwind CSS", "Full-Stack", "SQLite"],
   ["JQuery", "JS", "HTML/CSS", "Web Dev"],
-  ["Java", "Cybersecurity", "Maven"],
+  ["Java", "Cybersecurity", "Maven", "Logging"],
 ];
 const PROJECTS = [];
 (async () => {

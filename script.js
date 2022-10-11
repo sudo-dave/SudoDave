@@ -14,10 +14,12 @@ function ready() {
         term.reset();
         break;
       case "about":
+        term.echo(() => render(term, "[ About ]", ""));
         term.echo($(PFP_El));
         term.echo(ABOUT);
         break;
       case "skills":
+        term.echo(() => render(term, "[ Skills ]", ""));
         term.echo($(FRONT_IMG));
         term.echo(TOP_SKILLS);
         term.echo($(BACK_IMG));
@@ -26,21 +28,32 @@ function ready() {
         term.echo(LAST_SKILLS);
         break;
       case "contact":
+        term.echo(() => render(term, "[ Contact ]", ""));
         term.echo(CONTACT);
         break;
       case "projects":
+        term.echo(() => render(term, "[ Contact ]", ""));
         term.echo("\n");
         var i = 0;
         for (const project of PROJECTS) {
           const { name, desc, url } = project;
           const TECH_TEXT = TECH_DESC[i].join(" *");
           term.echo($(PROJECT_GIFS[i]));
+          var cur = name === "my-cli-website" ? " [CURRENT SITE]" : "";
           term.echo(
-            "[[b;#DE935F;]" + name.toUpperCase() + "]" + ":\n" + url + "\n"
+            "[[b;#DE935F;]" +
+              name.toUpperCase() +
+              "]" +
+              cur +
+              ":\n" +
+              url +
+              "\n"
           );
           term.echo(desc + "\n");
           term.echo("Tech Stack: *" + "[[i;#fff;]" + TECH_TEXT + "]");
-          if (i != PROJECT_URLS.length - 1) term.echo("\n#########" + "\n");
+          if (i != PROJECT_URLS.length - 1)
+            term.echo(() => render(term, "---", ""));
+
           i++;
         }
         break;
@@ -53,9 +66,11 @@ function ready() {
         window.open(REPO_URL, "_blank");
         break;
       case "help":
+        term.echo(() => render(term, "[ HELP ]", ""));
         term.echo("[[i;#5F819D;]" + HELP + "]");
         break;
       default:
+        term.echo(() => render(term, "404", ""));
         term.echo(
           "[[b;#A54242;]" + cmd.name + ": " + "command not found" + "]"
         );
