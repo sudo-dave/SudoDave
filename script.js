@@ -15,11 +15,13 @@ function ready() {
         break;
       case "about":
         term.echo(() => render(term, "[ About ]", ""));
+        term.echo("");
         term.echo($(PFP_El));
         term.echo(ABOUT);
         break;
       case "skills":
         term.echo(() => render(term, "[ Skills ]", ""));
+        term.echo("");
         term.echo($(FRONT_IMG));
         term.echo(TOP_SKILLS);
         term.echo($(BACK_IMG));
@@ -29,10 +31,11 @@ function ready() {
         break;
       case "contact":
         term.echo(() => render(term, "[ Contact ]", ""));
+        term.echo("");
         term.echo(CONTACT);
         break;
       case "projects":
-        term.echo(() => render(term, "[ Contact ]", ""));
+        term.echo(() => render(term, "[ Projects ]", ""));
         term.echo("\n");
         var i = 0;
         for (const project of PROJECTS) {
@@ -67,6 +70,7 @@ function ready() {
         break;
       case "help":
         term.echo(() => render(term, "[ HELP ]", ""));
+        term.echo("");
         term.echo("[[i;#5F819D;]" + HELP + "]");
         break;
       default:
@@ -83,7 +87,7 @@ const optons = {
   greetings: false,
   prompt: PROMPT,
   onInit() {
-    this.echo(() => render(this, "...Hello World...", "Slant"));
+    this.echo(() => render(this, "...Hello World", "Slant"));
     this.echo($(GIF_El));
     this.echo(GREET);
   },
