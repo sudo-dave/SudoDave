@@ -69,7 +69,7 @@ function ready() {
         window.open(REPO_URL, "_blank");
         break;
       case "help":
-        term.echo(() => render(term, "[ HELP ]", ""));
+        term.echo(() => render(term, "[ Help ]", ""));
         term.echo("");
         term.echo("[[i;#5F819D;]" + HELP + "]");
         break;
