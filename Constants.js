@@ -2,7 +2,7 @@ const GITHUB_LINK = "https://github.com/sudo-dave";
 const LINKEDIN_LINK = "https://www.linkedin.com/in/maciasdavid";
 const RESUME_URL =
   "https://drive.google.com/file/d/10ur6xeD7oChPe1m68Us5At-snCY6fkvR/view?usp=sharing";
-const REPO_URL = "https://github.com/sudo-dave/my-cli-website";
+const REPO_URL = "https://github.com/sudo-dave/sudo-dave.github.io";
 const PROFILE_URL = "images/pfp.jpg";
 
 const EMAIL = "david.macias.0101@gmail.com";
@@ -62,7 +62,7 @@ const PROJECT_URLS = [
   "https://api.github.com/repos/sudo-dave/Sort.io--Sorting-Visualizer",
   "https://api.github.com/repos/sudo-dave/cli-codeQ",
   "https://api.github.com/repos/sudo-dave/WhereToEat.io",
-  "https://api.github.com/repos/sudo-dave/my-cli-website",
+  "https://api.github.com/repos/sudo-dave/sudo-dave.github.io ",
   "https://api.github.com/repos/sudo-dave/KeyLogger",
 ];
 const PROJECT_GIFS = [
