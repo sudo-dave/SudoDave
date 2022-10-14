@@ -4,7 +4,7 @@ My "terminal/console" style personal website. Interact with the site while learn
 
 Although I'm currenlty self-hosting an instance of this project with my home lab, I'm also hosting on github pages.
 
-### Deploy @ https://sudo-dave.github.io/my-cli-website/
+### Deploy @ https://sudo-dave.github.io/
 
 
 ## Demo
