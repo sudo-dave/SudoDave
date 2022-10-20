@@ -60,10 +60,6 @@ function ready() {
           i++;
         }
         break;
-      case "resume":
-        term.echo("..redirecting....");
-        window.open(RESUME_URL, "_blank");
-        break;
       case "repo":
         term.echo("..redirecting....");
         window.open(REPO_URL, "_blank");
