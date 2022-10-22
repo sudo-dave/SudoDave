@@ -54,6 +54,7 @@ function ready() {
           );
           term.echo(desc + "\n");
           term.echo("Tech Stack: *" + "[[i;#fff;]" + TECH_TEXT + "]");
+
           if (i != PROJECT_URLS.length - 1)
             term.echo(() => render(term, "---", ""));
 

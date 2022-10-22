@@ -1,7 +1,5 @@
 const GITHUB_LINK = "https://github.com/sudo-dave";
 const LINKEDIN_LINK = "https://www.linkedin.com/in/maciasdavid";
-const RESUME_URL =
-  "https://drive.google.com/file/d/10ur6xeD7oChPe1m68Us5At-snCY6fkvR/view?usp=sharing";
 const REPO_URL = "https://github.com/sudo-dave/sudo-dave.github.io";
 const PROFILE_URL = "images/pfp.jpg";
 
