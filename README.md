@@ -6,6 +6,7 @@ Although I'm currenlty self-hosting an instance of this project with my home lab
 
 ### Deploy @ https://sudo-dave.github.io/
 
+Enter `help` into the site to get a list of available commands to run!! :)
 
 ## Demo
 
