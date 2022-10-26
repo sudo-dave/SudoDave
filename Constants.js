@@ -16,11 +16,16 @@ const GOOGLE_SUPPORT =
   "https://www.credly.com/badges/7d3c4f22-d17b-48a0-ad5e-ae31f59a34f6/public_url";
 
 const PROMPT = "[[b;#772953;]vistor@][[b;;]daves-website $ ]";
+// const GREET = `\nHEY!!! ヽ(•‿•)ノ
+//     \nMy name is [[bu;#DE935F;]DAVID MACIAS] and welcome to my interactive website.
+//     \nI'm a [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]information technology] and [[b;#fff;]software development].
+//     \n*Recently completed [[i;#fff;]Google IT Support Certificate]
+//     \n[[i;#5F819D;]## Enter in '[[;#fff;]help]' to get a list of commands.]
+//     `;
 const GREET = `\nHEY!!! ヽ(•‿•)ノ
     \nMy name is [[bu;#DE935F;]DAVID MACIAS] and welcome to my interactive website.
     \nI'm a [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]information technology] and [[b;#fff;]software development].
-    \n*Recently completed [[i;#fff;]Google IT Support Certificate]
-    \n[[i;#5F819D;]#### Enter in [[;#fff;]help] to get a list of commands.]
+    \n[[i;#5F819D;]## Enter in '[[;#fff;]help]' to get a list of commands...]
     `;
 const HELP =
   "COMMANDS:\n\t[[;#fff;]echo TEXT] - print txt to screen\n\t[[;#fff;]home] - go back to beginning of site\n\t[[;#fff;]about] - learn a little more about me\n\t[[;#fff;]skills] - display my skills \n\t[[;#fff;]contact] - get my contact details\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#fff;]clear] - clear console screen" +

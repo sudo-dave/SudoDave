@@ -70,6 +70,10 @@ function ready() {
         term.echo("");
         term.echo("[[i;#5F819D;]" + HELP + "]");
         break;
+      case "'help'":
+        term.echo("'help' not found");
+        term.echo("Did you mean help, not 'help'");
+        break;
       default:
         term.echo(() => render(term, "404", ""));
         term.echo(
