@@ -16,12 +16,7 @@ const GOOGLE_SUPPORT =
   "https://www.credly.com/badges/7d3c4f22-d17b-48a0-ad5e-ae31f59a34f6/public_url";
 
 const PROMPT = "[[b;#772953;]vistor@][[b;;]daves-website $ ]";
-// const GREET = `\nHEY!!! ヽ(•‿•)ノ
-//     \nMy name is [[bu;#DE935F;]DAVID MACIAS] and welcome to my interactive website.
-//     \nI'm a [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]information technology] and [[b;#fff;]software development].
-//     \n*Recently completed [[i;#fff;]Google IT Support Certificate]
-//     \n[[i;#5F819D;]## Enter in '[[;#fff;]help]' to get a list of commands.]
-//     `;
+
 const GREET = `\nHEY!!! ヽ(•‿•)ノ
     \nMy name is [[bu;#DE935F;]DAVID MACIAS] and welcome to my interactive website.
     \nI'm a [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]IT] and [[b;#fff;]software development].
