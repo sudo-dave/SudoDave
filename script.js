@@ -77,7 +77,7 @@ function ready() {
       default:
         term.echo(() => render(term, "404", ""));
         term.echo(
-          "[[b;#A54242;]" + cmd.name + ": " + "command not found" + "]"
+          "[[b;#A54242;]" + cmd.name + ": " + "command not found\nTry entering the cmd" + "] 'help'"
         );
     }
   }, optons);

@@ -26,13 +26,24 @@ const HELP =
   "COMMANDS:\n\t[[;#fff;]echo TEXT] - print txt to screen\n\t[[;#fff;]home] - go back to beginning of site\n\t[[;#fff;]about] - learn a little more about me\n\t[[;#fff;]skills] - display my skills \n\t[[;#fff;]contact] - get my contact details\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#fff;]clear] - clear console screen" +
   "\n\n\t[[;#DE935F;]projects] - display personal projects\n\t[[;#fff;]help] - display list of commands";
 
-const ABOUT =
-  "\n\tFor as long as I can remember, I've always tinkered with technology. When I was a kid I used to get in trouble dismantelling our home electronics." +
-  " I just had to know how that tv remote worked. After high school, I took an intro to programming class at a local community college; since then I have been hooked." +
-  " I'd always enjoyed tinkering with electronics but coding was different. I fell in love with the freedom and instant nature of it.\n" +
-  "\n\tAfter two years, I was able to transfer to a university. During my time there, I joined all the tech-related clubs there and even helped as a comp sci tutor." +
-  " I taught my self web dev with Udemy courses, youtube and a passion for learning. I learned React.js HTML/CSS and REST APIs with python. I bulit sites like this one and others. Eventually, my love of electronics colided with coding. Now I've been tinkering with rasberry pies and created a homelab with a cluster. So far it's been a blast." +
-  "\n\nI love tech because it empowers me to make ideas into a reality.\n\n---Thanks for learning a little more about me....\n<3";
+
+const ABOUT = 
+  `Since as far back as I can remember, I've had this irresistible fascination with technology. As a kid, my curious spirit often led me to dismantle our home electronics, which occasionally got me into a little trouble. But there was this insatiable need to understand how things worked, like that TV remote, for instance. And as time went on, my passion for technology only grew.
+
+After high school, I took an introductory programming class at a local community college, and from that moment, I was hooked! While I had always enjoyed tinkering with electronics, coding offered something different—a sense of freedom and instant gratification that stole my heart.
+
+Soon after, I had the chance to transfer to a university, where I enthusiastically joined all the tech-related clubs and even lent a hand as a computer science tutor. My passion for learning took me to Udemy courses and YouTube, where I taught myself web development. It was an exciting journey, mastering React.js, HTML/CSS, and REST APIs with Python. Building various websites, like the one you're seeing now, became my creative outlet.
+
+As time went on, my worlds of electronics and coding began to merge. I ventured into tinkering with Raspberry Pis and went on to create a homelab with a cluster—a true adventure that's brought me endless joy and excitement.
+
+It's been quite a blast so far, and I'm eager to see where this passion for technology takes me next!`
+// const d =
+//   "\n\tFor as long as I can remember, I've always tinkered with technology. When I was a kid I used to get in trouble dismantelling our home electronics." +
+//   " I just had to know how that tv remote worked. After high school, I took an intro to programming class at a local community college; since then I have been hooked." +
+//   " I'd always enjoyed tinkering with electronics but coding was different. I fell in love with the freedom and instant nature of it.\n" +
+//   "\n\tAfter two years, I was able to transfer to a university. During my time there, I joined all the tech-related clubs there and even helped as a comp sci tutor." +
+//   " I taught my self web dev with Udemy courses, youtube and a passion for learning. I learned React.js HTML/CSS and REST APIs with python. I bulit sites like this one and others. Eventually, my love of electronics colided with coding. Now I've been tinkering with rasberry pies and created a homelab with a cluster. So far it's been a blast." +
+//   "\n\nI love tech because it empowers me to make ideas into a reality.\n\n---Thanks for learning a little more about me....\n<3";
 
 const TOP_SKILLS =
   "[[;#fff;]Frontend:]\n\t*HTML/CSS *JS *React.js *Jquery *Tailwind CSS\n\n\n";
@@ -74,7 +85,7 @@ const TECH_DESC = [
   ["React", "HTML/CSS", "JS", "Styled-components"],
   ["Python", "Web Scraping", "Cli", "PRAW"],
   ["React", "Flask", "API", "Tailwind CSS", "Full-Stack", "SQLite"],
-  ["JQuery", "JS", "HTML/CSS", "Web Dev"],
+  ["AWS S3","JQuery", "JS", "HTML/CSS", "Web Dev"],
   ["Java", "Cybersecurity", "Maven", "Logging"],
 ];
 const PROJECTS = [];
