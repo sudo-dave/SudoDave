@@ -8,9 +8,11 @@ Automated GitHub Actions CI workflow for AWS S3 deployment, utilizing CloudFront
 
 Enter `help` into the site to get a list of available commands to run!! :)
 
-## Demo
-
 <img src="images/demo.gif">
+
+## Deployment Architecture 
+
+<img src="images/deploy.png">
 
 ## Usage
 
