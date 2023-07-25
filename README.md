@@ -4,7 +4,7 @@ My "terminal/console" style personal website. Interact with the site while learn
 
 Automated GitHub Actions CI workflow for AWS S3 deployment, utilizing CloudFront for efficient content delivery and AWS Certificate Manager for secure SSL certificates.
 
-### Deploy @ https://sudodave.xyz
+### Deployed @ https://sudodave.xyz
 
 Enter `help` into the site to get a list of available commands to run!! :)
 
