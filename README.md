@@ -2,7 +2,7 @@
 
 My "terminal/console" style personal website. Interact with the site while learning more about me by entering commands into the terminal UI. The website is built with HTML/CSS and Javascript using [jQuery](https://jquery.com).
 
-Although I'm currenlty self-hosting an instance of this project with my home lab, I'm also hosting on github pages.
+Automated GitHub Actions CI workflow for AWS S3 deployment, utilizing CloudFront for efficient content delivery and AWS Certificate Manager for secure SSL certificates.
 
 ### Deploy @ https://sudodave.xyz
 
