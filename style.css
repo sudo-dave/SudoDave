@@ -10,10 +10,12 @@ img{
 #gif{
   width: clamp(80px, 10%, 280px);
 }
+
 .skills{
   margin: 0 auto;
   width: clamp(85px, 8%, 280px);
 }
+
 .demo{
   margin: 2rem auto;
   width: clamp(110px, 50%, 100%);
