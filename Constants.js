@@ -19,7 +19,7 @@ const PROMPT = "[[b;#772953;]vistor@][[b;;]daves-website $ ]";
 
 const GREET = `\nHEY!!! ヽ(•‿•)ノ
     \nMy name is [[bu;#DE935F;]DAVID MACIAS] and welcome to my interactive website.
-    \nI'm a [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]IT] and [[b;#fff;]software development].
+    \nI'm a recent [[i;#fff;]computer science] graudte with a passion for [[b;#fff;]IT] and [[b;#fff;]software development].
     \n[[i;#5F819D;]## Enter in '[[;#fff;]help]' to get a list of commands...]
     `;
 const HELP =
