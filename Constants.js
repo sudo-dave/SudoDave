@@ -37,26 +37,6 @@ Soon after, I had the chance to transfer to a university, where I enthusiastical
 As time went on, my worlds of electronics and coding began to merge. I ventured into tinkering with Raspberry Pis and went on to create a homelab with a cluster—a true adventure that's brought me endless joy and excitement.
 
 It's been quite a blast so far, and I'm eager to see where this passion for technology takes me next!`
-// const d =
-//   "\n\tFor as long as I can remember, I've always tinkered with technology. When I was a kid I used to get in trouble dismantelling our home electronics." +
-//   " I just had to know how that tv remote worked. After high school, I took an intro to programming class at a local community college; since then I have been hooked." +
-//   " I'd always enjoyed tinkering with electronics but coding was different. I fell in love with the freedom and instant nature of it.\n" +
-//   "\n\tAfter two years, I was able to transfer to a university. During my time there, I joined all the tech-related clubs there and even helped as a comp sci tutor." +
-//   " I taught my self web dev with Udemy courses, youtube and a passion for learning. I learned React.js HTML/CSS and REST APIs with python. I bulit sites like this one and others. Eventually, my love of electronics colided with coding. Now I've been tinkering with rasberry pies and created a homelab with a cluster. So far it's been a blast." +
-//   "\n\nI love tech because it empowers me to make ideas into a reality.\n\n---Thanks for learning a little more about me....\n<3";
-
-const TOP_SKILLS =
-  "[[;#fff;]Frontend:]\n\t*HTML/CSS *JS *React.js *Jquery *Tailwind CSS\n\n\n";
-
-const MID_SKILLS =
-  "[[;#fff;]Backend:]\n\t*Python *Flask *Java *SQL *SQLAlchemy *Pandas\n\n\n";
-
-const LAST_SKILLS =
-  "[[;#fff;]Software/Tools:]\n\t*VScode *Jira *GIT *Microsft/Google Office\n\t*Familiar w/ Windows and Linux environments" +
-  "\n\n\n\n[[;#fff;]Intrests and areas of expertise:]\n\t*Fundamentals of Computer Networking & Cyberseruity *Effective Communication\n\t*Knowledge of Object-Oriented design *Software Development\n\t*Frontend Development *API Design *Troubleshooting and testing skills" +
-  "\n\n\nCompelted [[;#fff;]Google IT Support Certificatehelp:]\n" +
-  GOOGLE_SUPPORT +
-  "\n";
 
 const CONTACT =
   "Linkedin:\n" +
