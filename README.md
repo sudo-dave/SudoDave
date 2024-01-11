@@ -1,9 +1,10 @@
 # my-cli-website
+My "terminal/console" style personal website. Interact with the site while learning more about me by entering commands into the terminal UI. The website is built with HTML/CSS and Javascript using [jQuery](https://jquery.com).
+Automated GitHub Actions CI workflow for AWS S3 deployment, utilizing CloudFront for efficient content delivery and AWS Certificate Manager for secure SSL certificates.
+
 ## Deployment Architecture
 <img src="demos//Deployment_Architecture.png">
-My "terminal/console" style personal website. Interact with the site while learning more about me by entering commands into the terminal UI. The website is built with HTML/CSS and Javascript using [jQuery](https://jquery.com).
 
-Automated GitHub Actions CI workflow for AWS S3 deployment, utilizing CloudFront for efficient content delivery and AWS Certificate Manager for secure SSL certificates.
 
 ### Deployed @ https://sudodave.xyz
 
