@@ -19,11 +19,11 @@ const PROMPT = "[[b;#772953;]vistor@][[b;;]daves-website $ ]";
 
 const GREET = `\nHEY!!! ヽ(•‿•)ノ
     \nMy name is [[bu;#DE935F;]DAVID MACIAS] and welcome to my interactive website.
-    \nI'm a recent [[i;#fff;]computer science] graduate with a passion for [[b;#fff;]IT] and [[b;#fff;]software development].
+    \nI'm a recent [[i;#fff;]computer science] graduate with a passion for [[b;#fff;]Tech] .
     \n[[i;#5F819D;]## Enter in '[[;#fff;]help]' to get a list of commands...]
     `;
 const HELP =
-  "COMMANDS:\n\t[[;#fff;]echo TEXT] - print txt to screen\n\t[[;#fff;]home] - go back to beginning of site\n\t[[;#fff;]about] - learn a little more about me\n\t[[;#fff;]skills] - display my skills \n\t[[;#fff;]contact] - get my contact details\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#fff;]clear] - clear console screen" +
+  "COMMANDS:\n\t[[;#fff;]echo TEXT] - print txt to screen\n\t[[;#fff;]home] - go back to beginning of site\n\t[[;#fff;]about] - learn a little more about me\n\t[[;#fff;]contact] - get my contact details\n\t[[;#fff;]repo] - get redirected to the repo\n\t[[;#fff;]clear] - clear console screen" +
   "\n\n\t[[;#DE935F;]projects] - display personal projects\n\t[[;#fff;]help] - display list of commands";
 
 
