@@ -1,5 +1,5 @@
 # my-cli-website
-##Deployment Architecture
+## Deployment Architecture
 <img src="demos//Deployment_Architecture.png">
 My "terminal/console" style personal website. Interact with the site while learning more about me by entering commands into the terminal UI. The website is built with HTML/CSS and Javascript using [jQuery](https://jquery.com).
 
