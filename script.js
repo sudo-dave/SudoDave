@@ -19,16 +19,6 @@ function ready() {
         term.echo($(PFP_El));
         term.echo(ABOUT);
         break;
-      case "skills":
-        term.echo(() => render(term, "[ Skills ]", ""));
-        term.echo("");
-        term.echo($(FRONT_IMG));
-        term.echo(TOP_SKILLS);
-        term.echo($(BACK_IMG));
-        term.echo(MID_SKILLS);
-        term.echo($(TOOL_IMG));
-        term.echo(LAST_SKILLS);
-        break;
       case "contact":
         term.echo(() => render(term, "[ Contact ]", ""));
         term.echo("");
