@@ -19,11 +19,6 @@ function ready() {
         term.echo($(PFP_El));
         term.echo(ABOUT);
         break;
-      case "contact":
-        term.echo(() => render(term, "[ Contact ]", ""));
-        term.echo("");
-        term.echo(CONTACT);
-        break;
       case "projects":
         term.echo(() => render(term, "[ Projects ]", ""));
         term.echo("\n");
