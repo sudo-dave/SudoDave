@@ -1,6 +1,4 @@
-const GITHUB_LINK = "https://github.com/sudo-dave";
-const LINKEDIN_LINK = "https://www.linkedin.com/in/maciasdavid";
-const REPO_URL = "https://github.com/sudo-dave/sudo-dave.github.io";
+
 const PROFILE_URL = "images/pfp.jpg";
 
 const EMAIL = "david.macias.0101@gmail.com";
@@ -38,13 +36,7 @@ As time went on, my worlds of electronics and coding began to merge. I ventured 
 
 It's been quite a blast so far, and I'm eager to see where this passion for technology takes me next!`
 
-const CONTACT =
-  "Linkedin:\n" +
-  LINKEDIN_LINK +
-  "\n\nGithub:\n" +
-  GITHUB_LINK +
-  "\n\nEmail:\n" +
-  EMAIL;
+
 
 // Projects (Project Urls)
 const PROJECT_URLS = [
