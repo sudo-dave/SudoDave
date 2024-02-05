@@ -16,7 +16,6 @@ function ready() {
       case "about":
         term.echo(() => render(term, "[ About ]", ""));
         term.echo("");
-        term.echo($(PFP_El));
         term.echo(ABOUT);
         break;
       case "projects":
