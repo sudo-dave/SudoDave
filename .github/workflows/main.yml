@@ -16,5 +16,5 @@ jobs:
         aws-region: us-west-1 
       
     
-    - name: Sync repo root to S3 bucket - Continuous Integration of github to AWS s3
+    - name: Sync repo root to S3 bucket, Continuous Integration of github to AWS s3
       run: aws s3 sync ./ s3://sudodave.dev --delete --exclude ".github/*" --exclude ".git/*" --exclude ".gitignore"
