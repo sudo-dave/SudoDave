@@ -17,4 +17,4 @@ jobs:
       
     
     - name: Sync repo root to S3 bucket
-      run: aws s3 sync ./ s3://sudodave.dev --delete --exclude ".git/*"
+      run: aws s3 sync ./ s3://sudodave.dev --delete --exclude ".github/" --exclude ".gitignore"
